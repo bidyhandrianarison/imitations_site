@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+.signin{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+.signin:first-child{
+    text-align: center;
+}
+input{
+    width: 50vw;
+}

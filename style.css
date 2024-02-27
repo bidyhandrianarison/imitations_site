@@ -1,0 +1,92 @@
+.container{
+    display: grid;
+    grid-template-columns: 8% 55% 2% 26%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float :left ;
+    padding: 0% 1.5%;
+}
+.container1{
+   
+    /* grid-template-columns: 50% 50%;*/ 
+      
+    width: 50vw;
+    margin: auto;
+}
+.incontainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+ .undercontainer h1{
+  font-size: 2.5em; 
+} 
+button{
+   
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+button:hover, .bwhite:hover{
+    background-color: #0d0811;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+.bwhite{
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+}
+footer{
+    display: grid;
+     justify-content: center; 
+    background-color: blueviolet;
+    padding: 5%;
+    color: white;
+}
+.norm, footer img{
+    width: 20px;
+    height: 20px;
+}
+.pied{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+    
+}
+li img{
+    width: 10px;
+    height: 10px;
+}
+.menu li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#login{
+    display: none; 
+    width: 50vw;
+    margin: auto;
+}
+.form{
+    margin: auto;
+    border: 2px solid blueviolet;
+    border-radius: 1rem;
+    padding: 3rem;
+}
+input{
+    display: block;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border-color: blueviolet;
+}
+
+
